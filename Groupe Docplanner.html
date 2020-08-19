@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/css/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe Docplanner </title>
+    <link rel="stylesheet" href="./Groupe Docplanner_files/style.css">
+</head>
+<body><header>
+    <img class="logo" src="./Groupe Docplanner_files/logo-default-group-en.svg" alt="docplanner logo " width="15%">
+    <div class="aboutus">
+        <section id="about us"> about us</section>
+    </div>
+
+
+
+</header>
+
+
+
+    <div class="intro">
+        <img src="./Groupe Docplanner_files/logo.png" alt="logo docplanner " width="3%">
+        <h1 class="bruh">
+            Making the healthcare experience more human
+        </h1>
+        <div class="paragraphe">
+            <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient
+                journey should be enjoyable, and that's why we are always next to them: to help them find the best
+                possible care. Anytime, anywhere.
+            </p>
+
+            <p>
+                We also help doctors to better manage their practice and build their online reputation. With our
+                integrated end-to-end solution, doctors are able not only to improve their online presence, but also to
+                devote their time to what really matters: their patients.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="patients">
+        <h5>For patients</h5>
+            <h4>Find a doctor, book a visit and solve any health-related doubt</h4>
+    </div>
+    <div class="select">
+        <select name="Choose here">
+            <option>Choose Country</option>
+            <option value="https://www.doctoraliar.com"> argentina </option>
+            <option value=""> </option>
+
+
+
+        </select>
+    </div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
